@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:healthproject/screens/homepage/screen_hompage.dart';
 import 'package:healthproject/screens/homepage/screen_add_medicine.dart';
+import 'package:healthproject/screens/homepage/screen_splash.dart';
 import 'package:healthproject/screens/loginpage/screen_loginpage.dart';
 
 void main() {
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ScreenLoginPage(),
+      home: const ScreenSplash(),
       routes: {
         "loginPage": (context) => const ScreenLoginPage(),
         "homePage": (context) => const ScreenHomePage(),
