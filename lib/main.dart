@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:healthproject/screens/homepage/screen_hompage.dart';
+import 'package:healthproject/screens/homepage/screen_add_medicine.dart';
+import 'package:healthproject/screens/loginpage/screen_loginpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Health App',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -25,7 +27,12 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ScreenHomePage(),
+      home: const ScreenLoginPage(),
+      routes: {
+        "loginPage": (context) => const ScreenLoginPage(),
+        "homePage": (context) => const ScreenHomePage(),
+        "addMedicinePage": (context) => const ScreenAddMedicine(),
+      },
     );
   }
 }

@@ -75,11 +75,14 @@ class ScreenHomePage extends StatelessWidget {
                     width: 150,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                          backgroundColor: Color(0xffFFFFFF),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(59),
-                          )),
-                      onPressed: () {},
+                        backgroundColor: Color(0xffFFFFFF),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(59),
+                        ),
+                      ),
+                      onPressed: () {
+                        //code to open / launch begin to score screen here
+                      },
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: const [
@@ -140,7 +143,10 @@ class ScreenHomePage extends StatelessWidget {
                               ),
                               backgroundColor: const Color(0xffD9D9D9),
                             ),
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.of(context)
+                                  .pushNamed('addMedicinePage');
+                            },
                             child: Row(
                               children: const [
                                 Padding(
@@ -180,7 +186,9 @@ class ScreenHomePage extends StatelessWidget {
                               ),
                               backgroundColor: const Color(0xff5CE0E6),
                             ),
-                            onPressed: () {},
+                            onPressed: () {
+                              //code to open / launch Pair your device screen  here
+                            },
                             child: Row(
                               children: const [
                                 Padding(

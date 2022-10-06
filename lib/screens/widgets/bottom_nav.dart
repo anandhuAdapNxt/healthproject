@@ -26,10 +26,11 @@ class _BottomNavigationState extends State<BottomNavigation> {
       selectedIconTheme: const IconThemeData(color: Color(0xff5CE0E6)),
       unselectedIconTheme: const IconThemeData(color: Color(0xff000000)),
       selectedLabelStyle: const TextStyle(
-          fontFamily: "Nunito",
-          fontWeight: FontWeight.w700,
-          fontStyle: FontStyle.normal,
-          color: Colors.black),
+        fontFamily: "Nunito",
+        fontWeight: FontWeight.w700,
+        fontStyle: FontStyle.normal,
+        color: Colors.black,
+      ),
       unselectedLabelStyle: const TextStyle(
         fontFamily: "Nunito",
         fontWeight: FontWeight.w400,
@@ -42,17 +43,19 @@ class _BottomNavigationState extends State<BottomNavigation> {
       type: BottomNavigationBarType.fixed,
       items: const [
         BottomNavigationBarItem(
-            icon: Icon(
-              Icons.home_filled,
-            ),
-            label: "home"),
+          icon: Icon(
+            Icons.home_filled,
+          ),
+          label: "home",
+        ),
         BottomNavigationBarItem(
             icon: Icon(UniconsLine.calendar_alt), label: "history"),
         BottomNavigationBarItem(
-            icon: Icon(
-              Icons.add_box_outlined,
-            ),
-            label: "add"),
+          icon: Icon(
+            Icons.add_box_outlined,
+          ),
+          label: "add",
+        ),
         BottomNavigationBarItem(
           icon: Icon(UniconsLine.apps),
           label: "more",
