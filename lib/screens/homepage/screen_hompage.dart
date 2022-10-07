@@ -37,7 +37,7 @@ class ScreenHomePage extends StatelessWidget {
                     'Adherence score',
                     style: TextStyle(
                         color: Color(0xffFFFFFF),
-                        fontFamily: "Nunito",
+                        fontFamily: "Nunito800",
                         fontSize: 20,
                         fontWeight: FontWeight.w800),
                   ),
@@ -90,7 +90,7 @@ class ScreenHomePage extends StatelessWidget {
                             'Begin to score',
                             style: TextStyle(
                               color: Color(0xff333333),
-                              fontFamily: "Nunito",
+                              fontFamily: "Nunito600",
                               fontSize: 14,
                               fontWeight: FontWeight.w600,
                             ),
@@ -163,7 +163,7 @@ class ScreenHomePage extends StatelessWidget {
                                 Text(
                                   'Add medicine',
                                   style: TextStyle(
-                                    fontFamily: "Nunito",
+                                    fontFamily: "Nunito600",
                                     fontSize: 20,
                                     fontWeight: FontWeight.w600,
                                     color: Color(0xff000000),
@@ -205,7 +205,7 @@ class ScreenHomePage extends StatelessWidget {
                                 Text(
                                   'Pair your device',
                                   style: TextStyle(
-                                    fontFamily: "Nunito",
+                                    fontFamily: "Nunito600",
                                     fontSize: 20,
                                     fontWeight: FontWeight.w600,
                                     color: Color(0xff000000),

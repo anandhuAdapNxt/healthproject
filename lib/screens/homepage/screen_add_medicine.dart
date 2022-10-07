@@ -35,7 +35,7 @@ class ScreenAddMedicine extends StatelessWidget {
                     'Adherence score',
                     style: TextStyle(
                         color: Color(0xffFFFFFF),
-                        fontFamily: "Nunito",
+                        fontFamily: "Nunito800",
                         fontSize: 20,
                         fontWeight: FontWeight.w800),
                   ),
@@ -80,7 +80,7 @@ class ScreenAddMedicine extends StatelessWidget {
                         'Take your meds on time',
                         style: TextStyle(
                           color: Color(0xff333333),
-                          fontFamily: "Nunito",
+                          fontFamily: "Nunito600",
                           fontStyle: FontStyle.normal,
                           fontSize: 14,
                           fontWeight: FontWeight.w600,
@@ -141,7 +141,7 @@ class ScreenAddMedicine extends StatelessWidget {
                                       style: TextStyle(
                                         color: Color(0xff000000),
                                         fontStyle: FontStyle.normal,
-                                        fontFamily: "Nunito",
+                                        fontFamily: "Nunito600",
                                         fontSize: 20,
                                         fontWeight: FontWeight.w600,
                                       ),
@@ -176,7 +176,7 @@ class ScreenAddMedicine extends StatelessWidget {
                                   style: TextStyle(
                                     color: Color(0xff898989),
                                     fontStyle: FontStyle.normal,
-                                    fontFamily: "Nunito",
+                                    fontFamily: "NunitoRegular",
                                     fontSize: 14,
                                     fontWeight: FontWeight.w500,
                                   ),
@@ -197,7 +197,7 @@ class ScreenAddMedicine extends StatelessWidget {
                                     'edit',
                                     style: TextStyle(
                                       fontSize: 16,
-                                      fontFamily: "NunitoRegular",
+                                      fontFamily: "Nunito",
                                       fontStyle: FontStyle.normal,
                                       fontWeight: FontWeight.w700,
                                       color: Color(0xff5CBEE6),

@@ -93,6 +93,12 @@ flutter:
     - family: NunitoRegular
       fonts:
         - asset: assets/fonts/Nunito-regular.ttf
+    - family: Nunito600
+      fonts:
+        - asset: assets/fonts/Nunito-600.ttf
+    - family: Nunito800
+      fonts:
+        - asset: assets/fonts/Nunito-800.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

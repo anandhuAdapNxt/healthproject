@@ -45,7 +45,7 @@ class ScreenLoginPage extends StatelessWidget {
                     'Get Started',
                     style: TextStyle(
                       fontSize: 20,
-                      fontFamily: "Nunito",
+                      fontFamily: "Nunito600",
                       fontStyle: FontStyle.normal,
                       fontWeight: FontWeight.w600,
                       color: Color(0xff000000),
@@ -60,7 +60,7 @@ class ScreenLoginPage extends StatelessWidget {
                 'Already have an account?',
                 style: TextStyle(
                   fontSize: 16,
-                  fontFamily: "Nunito",
+                  fontFamily: "NunitoRegular",
                   fontStyle: FontStyle.normal,
                   fontWeight: FontWeight.w400,
                 ),

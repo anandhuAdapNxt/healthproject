@@ -32,7 +32,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
         color: Colors.black,
       ),
       unselectedLabelStyle: const TextStyle(
-        fontFamily: "Nunito",
+        fontFamily: "NunitoRegular",
         fontWeight: FontWeight.w400,
         fontStyle: FontStyle.normal,
         color: Color(

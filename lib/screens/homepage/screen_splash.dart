@@ -13,7 +13,7 @@ class _ScreenSplashState extends State<ScreenSplash> {
   @override
   void initState() {
     Future.delayed(const Duration(seconds: 3), () {
-      Navigator.pushNamed(context, "loginPage");
+      Navigator.pushReplacementNamed(context, "loginPage");
     });
 
     super.initState();
@@ -40,12 +40,14 @@ class _ScreenSplashState extends State<ScreenSplash> {
                 image: AssetImage('assets/images/Vector1.png'),
               ),
               Spacer(),
-              Image(image: AssetImage('assets/images/Vector2.png'))
+              Image(
+                image: AssetImage('assets/images/Vector2.png'),
+              )
             ],
           ),
           const Positioned(
             top: 309,
-            left: 69,
+            left: 80,
             child: Image(
               image: AssetImage(
                 'assets/images/image.png',
@@ -54,7 +56,7 @@ class _ScreenSplashState extends State<ScreenSplash> {
           ),
           const Positioned(
             top: 461,
-            left: 55,
+            left: 69,
             child: Text(
               'Making Medication Connected',
               style: TextStyle(
