@@ -12,7 +12,7 @@ class ScreenSplash extends StatefulWidget {
 class _ScreenSplashState extends State<ScreenSplash> {
   @override
   void initState() {
-    Future.delayed(const Duration(seconds: 3), () {
+    Future.delayed(const Duration(milliseconds: 300), () {
       Navigator.pushReplacementNamed(context, "loginPage");
     });
 
