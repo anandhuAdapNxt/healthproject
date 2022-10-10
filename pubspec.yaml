@@ -38,6 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   unicons: ^2.1.0
   flutter_snake_navigationbar: ^0.6.1
+  intl: ^0.17.0
   
 
 dev_dependencies:
